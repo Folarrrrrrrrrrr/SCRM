@@ -1,0 +1,49 @@
+.sliderCard {
+  background-color: #fff;
+  /* border: 1px solid #ddd; */
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  min-width: 250px;
+  min-height: 250px;
+  box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.4);
+  transition: transform 0.5s ease-in-out;
+}
+.sliderCard:hover {
+  transform: scale(1.05);
+}
+.projectBrief {
+  text-wrap: wrap;
+  padding: 10px;
+}
+
+@media (min-width: 308px) and (max-width: 690px) {
+  .sliderCard {
+    background-color: #fff;
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+    min-height: 250px;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.4); */
+    transition: transform 0.5s ease-in-out;
+  }
+}
+@media (min-width: 428px) and (max-width: 926px) {
+    .sliderCard {
+      background-color: #fff;
+      /* border: 1px solid #ddd; */
+      border-radius: 8px;
+      padding: 20px;
+      margin: 10px;
+      width: 100%;
+      min-height: 250px;
+      justify-content: center;
+      align-items: center;
+      /* box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.4); */
+      transition: transform 0.5s ease-in-out;
+    }
+  }

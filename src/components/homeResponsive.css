@@ -1,0 +1,32 @@
+/* @media (min-width: 768px) and (max-width: 1104px) {
+  .HeroHeader {
+  }
+  .summary {
+  }
+  .buttonContainer {
+  }
+} */
+@media (min-width: 308px) and (max-width: 690px) {
+ /* .BannerContaier{
+  background-size: cover;
+ } */
+  .heading{
+    font-weight: 200;
+    font-size: 80%;
+    text-align: center;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+  .summary {
+    /* margin-top: 20px; */
+    
+    font-size: medium;
+    text-wrap: wrap;
+    text-align: center;
+
+  }
+  .buttonContainer {
+    display:flex;
+    flex-direction: column;
+  }
+}
