@@ -7,7 +7,7 @@ const Services = () => {
       <div id="services" className="section ">
         <h2 className="line-title"></h2>
         <div className="sectionFourContainer justify-center">
-          <div className="servicesContainer  mt-5">
+          <div className="servicesContainer mt-5">
             <div className="spaImg serviceOne slideRightOnly">
               <div className="imageOverlay"></div>
               <div className="overlayContent">

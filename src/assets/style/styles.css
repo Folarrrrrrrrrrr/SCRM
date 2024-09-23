@@ -226,9 +226,6 @@ p {
   transform: translateY(10px);
 }
 .servicesContainer {
-  /* background-image: url("../images/newspaper.jpg");
-  background-size: cover;
-  background-repeat: no-repeat; */
   justify-content: space-evenly;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -976,6 +973,14 @@ button {
 }
 /* tab view */
 @media (min-width: 768px) and (max-width: 991px) {
+  .servicesContainer {
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 4px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
   .slideLeft{
     animation: slideLeftAnimation both;
     animation-timeline: view();
