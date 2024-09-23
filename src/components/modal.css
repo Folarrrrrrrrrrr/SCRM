@@ -12,10 +12,14 @@ body.activeModal {
   right: 0;
   bottom: 0;
   position: fixed;
+  
 }
 
 .overlay {
   background: rgba(49, 49, 49, 0.8);
+}
+.modalContainer{
+  z-index: 1;
 }
 .modalContent {
   position: absolute;
@@ -28,6 +32,8 @@ body.activeModal {
   border-radius: 3px;
   max-width: 600px;
   min-width: 300px;
+  
+    z-index: 1;
 }
 .closeModal {
   position: relative;
@@ -49,6 +55,7 @@ body.activeModal {
     border-radius: 3px;
     max-width: 700px;
     min-width: 370px;
+    
     /* overflow: scroll; */
   }
   .modalText{

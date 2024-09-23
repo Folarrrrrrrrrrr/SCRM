@@ -231,11 +231,19 @@ p {
   background-repeat: no-repeat; */
   justify-content: space-evenly;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-gap: 40px;
-  padding-left: 9%;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 4px;
+  padding-left: 13px;
+  padding-right: 10px;
 }
-
+.imageOverlay{
+  background-color: rgba(0, 0, 0,.4);
+  height:400px;
+  width: 100%;
+  position: relative;
+  top: -12px;
+  /* bottom: 10px; */
+}
 .serviceOne,
 .serviceTwo,
 .serviceThree,
@@ -247,10 +255,10 @@ p {
 .serviceTen {
   font-weight: 650;
   background-color: #ffffff;
-  border-radius: 30px;
+  /* border-radius: 5px; */
   color: #000000;
-  height: 60px;
-  width: 80%;
+  height: 400px;
+  width: 100%;
   padding-top: 2.5%;
   /* justify-self: center; */
   text-align: center;
@@ -258,13 +266,71 @@ p {
 .serviceNine{
   font-weight: 650;
   background-color: #ffffff;
-  border-radius: 30px;
+  /* border-radius: 5px; */
   color: #000000;
-  height: 60px;
-  width: 80%;
-  
+  height: 400px;
+  width: 100%;
+  padding-top: 2.5%;
   /* justify-self: center; */
   text-align: center;
+}
+.spaImg{
+  background-image: url('../images/strategicPlanning.jpg');
+  /* height: 100%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.rmcImg{
+  background-image: url('../images/researchCollaboration.jpg');
+  /* height: 100%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bdrImg{
+  background-image: url('../images/BusinessReviewthree.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.ifpImg{
+  background-image: url('../images/InvestmentPlanningOne.jpg');
+  /* height: 100%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.crImg{
+  background-image: url('../images/RetreatThree.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fddImg{
+  background-image: url('../images/Due_Diligence.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.cfsImg{
+  background-image: url('../images/researchCollaboration.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.meImg {
+  background-image: url('../images/mAndeFour.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.pdmImg {
+  background-image: url('../images/projectMgtFour.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.frcImg {
+  background-image: url('../images/fundRaising.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.cgImg {
+  background-image: url('../images/corporateGov.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 /* .serviceOne{
 } */
@@ -407,6 +473,16 @@ p {
     filter: blur(45px);
   }
 }
+.serviceSummary{
+  color:rgba(255, 255, 255, 1.9);
+  z-index: 9999;
+  /* position: relative; */
+  /* bottom: -70%; */
+}
+.overlayContent{
+  position: relative;
+  top: -50%;
+}
 
 .sectorsContainer {
   width: 100%;
@@ -438,7 +514,7 @@ p {
   /* width: 70px; */
 }
 .profileCard{
-  height: 300px;
+  height: 100%;
   justify-content: center;
   align-items: center;
   padding: 3px;

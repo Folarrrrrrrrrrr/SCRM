@@ -15,7 +15,7 @@ export default function Modal(props) {
     document.body.classList.remove('activeModal')
   }
   return (
-    <div>
+    <div className='modalContainer'>
       <button onClick={toggleModal} className={props.modalButtonStyle}> {props.btnText}</button>
     {modal &&(
       <div className="modal">

@@ -110,6 +110,7 @@ const Contact = () => {
   return (
     <>
       <div id="contact" className="section contactPage mt-52">
+      <h2 className="line-title"></h2>
         <div className="whiteBackground bg-white h-96">
           <Slider Testomonials={Testomonials} />
         </div>

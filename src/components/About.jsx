@@ -1,6 +1,6 @@
 import "../assets/style/styles.css";
 import ProfileIcon from "../assets/images/User.jpeg";
-import energy from "../assets/images/energyIcon.png";
+import circularEconomy from "../assets/images/energyIcon.png";
 import money from "../assets/images/money.png";
 import Button from "./Botton";
 import profileIcon from "../assets/images/User.jpeg";
@@ -8,31 +8,81 @@ import DrSamir from "../assets/docs/DrSamir.pdf";
 import Communication from "../assets/images/networking.png";
 import waterTrans from "../assets/images/waterTrans.png";
 import Finance from "../assets/images/Finance.png";
+import Waste from "../assets/images/waste.png";
+import Therna from "../assets/images/therna.png";
+import Estate from "../assets/images/realEstate.png";
+import REnergy from "../assets/images/energy.png";
+import Agric from "../assets/images/agric.png";
+import Flare from "../assets/images/gasflare.png";
+import Health from "../assets/images/health.png";
 const About = () => {
   const Sectors = [
     {
-      logo: energy,
-      Sector: " Clean Energy / Circular Economy",
+      logo: circularEconomy,
+      Sector: "CIRCULAR ECONOMY",
       summary:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Idsoluta illo facilis labore, sed ipsam nemo possimus. Molestias,fugiat vel voluptate repellendus iure ipsam rem consectetur erferendis laudantium odio tempora!",
+        "Focuses on reducing waste by reusing, recycling, and refurbishing materials to promote sustainable development and innovation in designing products that can be reused, extending the life cycle of resources.",
     },
     {
       logo: Finance,
       Sector: " FINANCIAL SERVICES",
       summary:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Idsoluta illo facilis labore, sed ipsam nemo possimus. Molestias,fugiat vel voluptate repellendus iure ipsam rem consectetur erferendis laudantium odio tempora!",
+        "The financial services vertical including Banks, Insurance, and Investment  firms, plays a key role in managing money and supporting economic growth. Digital technologies like fintech are transforming how financial products are accessed and delivered ",
     },
     {
       logo: Communication,
-      Sector: " Communication, Innovation, And Digital Economy",
+      Sector: " COMMUNICATION, AND DIGITAL ECONOMY",
       summary:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Idsoluta illo facilis labore, sed ipsam nemo possimus. Molestias,fugiat vel voluptate repellendus iure ipsam rem consectetur erferendis laudantium odio tempora!",
+        "The digital economy is driven by technologies like the internet, mobile devices, and cloud computing, transforming industries and global connectivity. Communication infrastures, including 5G networks, underpins this economy facilitating e-commerce and digital services. This sector is crucial for innovation and the job creation, though it faces challenges like cybersecurity and data privacy",
+    },
+    {
+      logo: REnergy,
+      Sector: " RENEWABLE ENERGY ",
+      summary:
+        " Investing in renewable energy infrastructure boost economic growth and job creation as we committed to reducing carbon emmissions, offering a sustainable alternative to fossol fuels while ehancing energy",
+    },
+
+    {
+      logo: Flare,
+      Sector: "GAS FLARES",
+      summary:
+        " Excess natural gas is burned off durong oil extraction, contributing, to greenhouse gas emissions wasting valuable energy that could br harnessed for power genration. Efforts are underway to reduce flaring through regulatory frameworks and gas recovery technologies",
     },
     {
       logo: waterTrans,
-      Sector: "WATER TRANSPORTATION",
+      Sector: "CRITICAL MINERALS / PRECIOUS METALS",
       summary:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Idsoluta illo facilis labore, sed ipsam nemo possimus. Molestias,fugiat vel voluptate repellendus iure ipsam rem consectetur erferendis laudantium odio tempora!",
+        "Minerals like lithium, cobalt, and precious metals are vital for modern technologies such as batteries and electronics. Growing global demand, driven by green energy and digitalisation is creating supply chain challenges and environmental concerns. Sustainable sourcing and recycling are key to securing long-term access to these resources.",
+    },
+    {
+      logo: Agric,
+      Sector: "COMMERCIAL AGRICULTURE",
+      summary:
+        "Larrge-scale farming aimed at producing crops and livestock for market sale plays a crucial rolein food security and economic development . Innovations in eco-friendly farming practices are needed to balance productivity with environmental health.",
+    },
+    {
+      logo: Therna,
+      Sector: "THERNAL POWER PLANTS",
+      summary:
+        "Thernal power plants convert heat from fossil fuels into electricity, making them major energy producers but also contributors to carbon emissions. Cleaner technologies are being adopted to reduce their environmental impact.",
+    },
+    {
+      logo: Estate,
+      Sector: "REAL ESTATE ",
+      summary:
+        "Development, buying, and sellong of property for residential, commercial or industrial use. It drives economic growth and shapes urban development, with sustainability becoming an impotrtant factor. Smart building anf green infrastructure are increasingly in demand for energy-efficient, eco-friendly living and working spaces.",
+    },
+    {
+      logo: Waste,
+      Sector: "CLEAN TECHNOLOGY",
+      summary:
+        " Cleantech  includes innovations that minimise waste and  emissions while promoting renwable energy and sustainable  practices.",
+    },
+    {
+      logo: Health,
+      Sector: " HEALTH CARE / HOSPITAL CAMPUSES",
+      summary:
+        " Healthcare and hospital campuses provide critical medical services, from routine care to advanced treatments. They increasingly incorporate technology and sustainable design to enhance patient outcomes and reduce environmetal impacts. These campuses are also hubs for medical research and innovation.",
     },
   ];
 
@@ -76,7 +126,7 @@ const About = () => {
   return (
     <>
       <div id="about" className="section3 mt-7 ">
-        <h2 className="line-title">About SCRM </h2>
+        <h2 className="line-title"></h2>
         <div className="visionContainer">
           <div className="visionStatement">
             <h3 className="text-2xl ml-20 autoShow  mt-10 text-center">
@@ -181,6 +231,26 @@ const About = () => {
                 src={profileIcon}
                 alt=""
               />
+              <div className="cardBox  ">
+                <h4 className="name text-black text-xl"> EDIMA BEN EKPO</h4>
+                <p className="bio text-center text-black">
+                  Former Deputy General Manager – Risk Management for the United
+                  Bank of Africa Plc. He is a Fellow of the Institute of
+                  Chartered Accountants of Nigeria (ICAN). A senior specialist
+                  in Operational Risk Management, he is an Examiner for the
+                  Institute of Risk Management of London.
+                </p>
+                {/* <a href={DrSamir} className="DownloadBtn">
+                  Resume
+                </a> */}
+              </div>
+            </div>
+            <div className="profileCard autoBlur mt-6 text-center">
+              <img
+                className="profilePicture  w-20 h-20"
+                src={profileIcon}
+                alt=""
+              />
               <div className="cardBox">
                 <h4 className="name text-black text-xl"> Dr. Samir Attia </h4>
                 <p className="bio text-center text-black">
@@ -227,53 +297,7 @@ const About = () => {
                 </a> */}
               </div>
             </div>
-            <div className="profileCard autoBlur mt-6 text-center">
-              <img
-                className="profilePicture  w-20 h-20"
-                src={profileIcon}
-                alt=""
-              />
-              <div className="cardBox">
-                <h4 className="name text-black text-xl">
-                  {" "}
-                  OLABANJI M. BALOGUN{" "}
-                </h4>
-                <p className="bio text-center text-black">
-                  He was a Principal Manager of the Bank of Industry in charge
-                  of Appraisal (Market, Technical, Financial, and Economic
-                  Analysis), Implementation, Supervision, and Debt Collection of
-                  Industrial Projects (World Bank/ IBRD, African Development
-                  Bank, European Investment Bank, etc at the Bank of Industry.
-                  He had handled NERFUND & SME Projects as well. 23-year career
-                  at the Bank of Industry. BSc in Economics (2nd class upper).
-                </p>
-                {/* <a href={DrSamir} className="DownloadBtn">
-                  Resume
-                </a> */}
-              </div>
-            </div>
-            <div className="profileCard autoBlur  mt-6 text-center">
-              <img
-                className="profilePicture  w-20 h-20"
-                src={profileIcon}
-                alt=""
-              />
-              <div className="cardBox  ">
-                <h4 className="name text-black text-xl"> ISAAC FAMULUSI </h4>
-                <p className="bio text-center text-black">
-                  He was a Principal Manager of the Bank of Industry in charge
-                  of Appraisal (Market, Technical, Financial, and Economic
-                  Analysis), Implementation, Supervision, and Debt Collection of
-                  Industrial Projects (World Bank/ IBRD, African Development
-                  Bank, European Investment Bank, etc at the Bank of Industry.
-                  He had handled NERFUND & SME Projects as well. 23-year career
-                  at the Bank of Industry. BSc in Economics (2nd class upper).
-                </p>
-                {/* <a href={DrSamir} className="DownloadBtn">
-                  Resume
-                </a> */}
-              </div>
-            </div>
+
             {/* </div>
           <div className="hofRow"> */}
             <div className="profileCard autoBlur mt-6 text-center">
@@ -283,54 +307,23 @@ const About = () => {
                 alt=""
               />
               <div className="cardBox">
-                <h4 className="name text-black text-xl"> EMMA EDISON </h4>
+                <h4 className="name text-black text-xl"> SAMSON EDODI </h4>
                 <p className="bio text-center text-black">
-                  Senior Marketing Specialist. Consulted for the LBS and worked
-                  for the IFC on the design of Feasibility Studies for the
-                  Izombe Gas Project in Imo state. Holds an MBA in Marketing and
-                  a BSc in Chemistry (1980).
-                </p>
-                {/* <a href={DrSamir} className="DownloadBtn">
-                  Resume
-                </a> */}
-              </div>
-            </div>
-            <div className="profileCard autoBlur mt-6 text-center">
-              <img
-                className="profilePicture  w-20 h-20"
-                src={profileIcon}
-                alt=""
-              />
-              <div className="cardBox">
-                <h4 className="name text-black text-xl"> FRIDAY ESSENENKAK </h4>
-                <p className="bio text-center text-black">
-                  Schooled in Business Administration and Finance, Chartered
-                  Stockbroker (ACS), Certified Pension Consultant (FCIP) and
-                  accredited MSME Specialist. Alumnus of the Venture Capital
-                  Institute of USA and a former Council Member, National
-                  Association of Small and Medium Enterprises (NASME). He is
-                  skilled in building and growing small firms into stable medium
-                  and large economically contributing enterprises.
-                </p>
-                {/* <a href={DrSamir} className="DownloadBtn">
-                  Resume
-                </a> */}
-              </div>
-            </div>
-            <div className="profileCard autoBlur mt-6 text-center">
-              <img
-                className="profilePicture  w-20 h-20"
-                src={profileIcon}
-                alt=""
-              />
-              <div className="cardBox  ">
-                <h4 className="name text-black text-xl"> EDIMA BEN EKPO</h4>
-                <p className="bio text-center text-black">
-                  Former Deputy General Manager – Risk Management for the United
-                  Bank of Africa Plc. He is a Fellow of the Institute of
-                  Chartered Accountants of Nigeria (ICAN). A senior specialist
-                  in Operational Risk Management, he is an Examiner for the
-                  Institute of Risk Management of London.
+                  Sampson Edodi is a Research Analyst at S.C.R.M. with strong
+                  expertise in monitoring and evaluation and project management.
+                  Some of the studies undertaken or participated in include
+                  Sustainability, Urban Disaster and Resilience in a Pandemic:
+                  Sustainable Livelihoods of the Informal Sector in Islamabad,
+                  Tata Institute of Social Sciences (TISS), Mumbai (August
+                  2021); Challenges of Deepening Regional Integration and
+                  Sustainable Development in West Africa, Case of ECOWAS, ECOWAS
+                  (Jul-Sep., 2022); AI Innovation, Eurostars 3 (ESTARS3), Eureka
+                  Association, European Union (Sept/Oct. 2023); Managing the
+                  environment: issues and priority actions for sustainable waste
+                  management in Uganda, Mbarara University of Science and
+                  Technology, Uganda (2023); and COP26 Climate Exp0: Fusion of
+                  Science and Policy, COP26 Universities Network and the Italian
+                  University Network for Sustainable Development (RUS), (May 2021).
                 </p>
                 {/* <a href={DrSamir} className="DownloadBtn">
                   Resume
