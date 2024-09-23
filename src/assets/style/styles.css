@@ -1275,17 +1275,17 @@ button {
   @keyframes slideRightOnlyAnimation{
     0%{
       opacity: 0;
-      transform: translateY(-40px);
+      transform: translateX(-40px);
       scale:(0);
      }
      25%,50%{
       opacity: 1;
-      transform: translateY(0);
+      transform: translateX(0);
       scale:(1);
      }
      110%{
       opacity: 0;
-      transform: translateY(-40px);
+      transform: translateX(-40px);
       scale:(0);
      }
   }
@@ -1296,17 +1296,17 @@ button {
   @keyframes slideLeftOnlyAnimation{
     0%{
       opacity: 0;
-      transform: translateX(40px);
+      transform: translateY(40px);
       scale:(0);
      }
      25%,50%{
       opacity: 1;
-      transform: translateX(0);
+      transform: translateY(0);
       scale:(1);
      }
      110%{
       opacity: 0;
-      transform: translateX(40px);
+      transform: translateY(40px);
       scale:(0);
      }
   }
