@@ -294,7 +294,7 @@ const About = () => {
                 <div className="cardBox">
                   <h4 className="name text-black text-xl">
                     {" "}
-                    ENGR ABAYOMI JUNAID{" "}
+                    Engr. Abayomi Jinaid{" "}
                   </h4>
                   <p className="bio text-left text-black">
                     A Senior Investment Banker and former Chief Manager at the
@@ -317,7 +317,7 @@ const About = () => {
                   alt=""
                 />
                 <div className="cardBox">
-                  <h4 className="name text-black text-xl"> SAMSON EDODI </h4>
+                  <h4 className="name text-black text-xl"> Sampson Edodi </h4>
                   <p className="bio text-left text-black">
                     Sampson Edodi is a Research Analyst at S.C.R.M. with strong
                     expertise in monitoring and evaluation and project
