@@ -174,7 +174,8 @@ const formHandler =(e)=>{
               </a>
             </p>
             <hr />
-            <h1 className="formHeader text-black"> Send Us A Message </h1>
+            <br />
+            <h1 className="formHeader text-black"> Send Us an Email </h1>
             <input type="text" name="name" 
               value={formData.name} placeholder="Name" 
               onChange={InputHandler}  required />

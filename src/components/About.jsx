@@ -16,6 +16,9 @@ import Agric from "../assets/images/agric.png";
 import Flare from "../assets/images/gasflare.png";
 import Health from "../assets/images/health.png";
 import Edima from "../assets/images/Edima.jpg";
+import samir from "../assets/images/Samir.jpg";
+import Sampson from "../assets/images/Sampson.jpg";
+import Udeme from "../assets/images/Udeme.jpg";
 const About = () => {
   const Sectors = [
     {
@@ -207,7 +210,7 @@ const About = () => {
               <div className="imgContainer ">
                 <img
                   className="profilePicture  w-20 h-20"
-                  src={profileIcon}
+                  src={Udeme}
                   alt=""
                 />
               </div>
@@ -258,7 +261,7 @@ const About = () => {
               <div className="profileCard autoBlur m-6 text-center">
                 <img
                   className="profilePicture  w-20 h-20"
-                  src={profileIcon}
+                  src={samir}
                   alt=""
                 />
                 <div className="cardBox">
@@ -310,7 +313,7 @@ const About = () => {
               <div className="profileCard autoBlur m-6 text-center">
                 <img
                   className="profilePicture  w-20 h-20"
-                  src={profileIcon}
+                  src={Sampson}
                   alt=""
                 />
                 <div className="cardBox">

@@ -5,7 +5,7 @@ import About from "../components/About";
 import Services from "../components/Services";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-
+import home from '../assets/images/home.png'
 const MainPage = () => {
   const LinkBtnHandler = () => {
     // window.open("https://www.linkedin.com/in/folawe-oluwole", "_blank");
@@ -26,7 +26,7 @@ const MainPage = () => {
           cursor-pointer text-4xl bg-green-700 w-16 h-16 flex items-center
           justify-center rounded-full animate-bounce"
             handleBtnClick={LinkBtnHandler}
-            children=<ion-icon name="logo-linkedin" />
+            children= <img src={home}/>
           />
         </a>
       </div>
