@@ -449,6 +449,7 @@ ul li .links:hover {
     filter: blur(45px);
   }
 }
+
 .serviceSummary {
   color: rgba(255, 255, 255, 1.9);
   z-index: 9999;
@@ -472,7 +473,7 @@ ul li .links:hover {
   font-family: Roboto, sans-serif;
   border-radius: 40px;
   border-radius: 20px;
-  color: black;
+  color: white;
 }
 
 .sectorCard:hover {

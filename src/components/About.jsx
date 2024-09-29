@@ -187,7 +187,7 @@ const About = () => {
                     {" "}
                     {Sectors[i].Sector}
                   </h4>
-                  <p className="cardDetails mt-3 text-center text-wrap text-gray-500">
+                  <p className="cardDetails mt-3 text-center text-wrap ">
                     {Sectors[i].summary}
                   </p>
                 </div>

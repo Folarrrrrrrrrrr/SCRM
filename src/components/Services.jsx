@@ -24,7 +24,7 @@ const Services = () => {
             <div className="pdmImg serviceTwo ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2  className="text-white text-center">Project Development and Management </h2>
+                <h2  className="text-white   text-center">Project Development and Management </h2>
                 <p className="serviceSummary pl-2 pr-2 text-white">
                   End-to-end project management services, from project design
                   and proposal development to implementation and evaluation.
@@ -38,7 +38,7 @@ const Services = () => {
             <div className=" frcImg serviceFive ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2  className="text-white text-center"> Fund-Raising Consultancy </h2>
+                <h2  className="text-white  text-center"> Fund-Raising Consultancy </h2>
                 <p className="serviceSummary pl-2 pr-2 text-white">
                   We provide some support for fundraising activities of project
                   sponsors of vetted and shovel-ready private sector projects,
@@ -53,7 +53,7 @@ const Services = () => {
             <div className="bdrImg serviceThree ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2  className="text-white text-center" > Business Diagnostic Reviews </h2>
+                <h2  className="text-white  text-center" > Business Diagnostic Reviews </h2>
                 <p className="serviceSummary pl-2 pr-2 text-white">
                   identify challenges, and uncover growth opportunities by
                   evaluating key areas such as operations, financial management,
@@ -67,7 +67,7 @@ const Services = () => {
             <div className="ifpImg serviceFour ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2  className="text-white text-center">Investment Facilitation and Promotion</h2>
+                <h2 className="text-red-500  text-center">Investment Facilitation and Promotion</h2>
                 <p className="serviceSummary pl-2 pr-2 text-white">
                   strategic guidance on regulatory environments, market entry,
                   and establishing local partnerships, based on our previous
@@ -78,7 +78,7 @@ const Services = () => {
             <div className="meImg serviceNine ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2  className="text-white text-center">Monitoring and Evaluation</h2>
+                <h2  className="text-white  text-center">Monitoring and Evaluation</h2>
                 <p className="serviceSummary pl-2 pr-2 text-white">
                   We design detailed proposals and implement comprehensive
                   monitoring and evaluation frameworks, conduct baseline,
@@ -90,7 +90,7 @@ const Services = () => {
             <div className=" cgImg serviceEight ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2  className="text-white text-center"> Corporate Governance</h2>
+                <h2  className="text-white  text-center"> Corporate Governance</h2>
                 <p className=" text-white serviceSummary pl-2 pr-2">
                   Our comprehensive corporate governance services designed to
                   enhance organisational accountability, transparency, and
@@ -101,7 +101,7 @@ const Services = () => {
             <div className="fddImg serviceSix ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2 className="text-white text-center"> Financial Due Diligence </h2>
+                <h2 className="text-white t ext-center"> Financial Due Diligence </h2>
                 <p className="  serviceSummary pl-2 pr-2 text-white">
                   Our approach includes analyzing financial statements,
                   assessing financial health, evaluating cash flow, and
@@ -112,13 +112,13 @@ const Services = () => {
               </div>
             </div>
             {/* <div className="cfsImg serviceSeven ">
-              <h2> Comprehensive Feasibility Study</h2>
+              <h2> Comprehensive Feasibil ity Study</h2>
               <div className="imageOverlay"></div>
             </div> */}
             <div className=" crImg serviceTen ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2  className="text-white text-center"> Company Retreat</h2>
+                <h2  className="text-white  text-center"> Company Retreat</h2>
                 <p className="serviceSummary pl-2 pr-2 text-white">
                   We design and deliver tailored retreat and training programmes
                   and workshops using time-tested methodologies that guarantee
@@ -129,7 +129,7 @@ const Services = () => {
             </div>
           </div>
           {/* <div className="contactContainer">
-            <h2 className="line-title"> Contact Me</h2>
+            <h2 className="line-title">  Contact Me</h2>
             <div className="row">
               <div className="contact-col-one">
                 <p className="email">Oluwolefolawe@gmail.com</p>
