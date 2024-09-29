@@ -33,7 +33,7 @@ const formHandler =(e)=>{
     headers:{
       'content-Type': 'application/json',
     },
-    body: JSOM.stringify(formData),
+    body: JSON.stringify(formData),
   }).then((response)=>{
     if(response.ok){
       alert('email sent successfully');
