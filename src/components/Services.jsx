@@ -8,11 +8,11 @@ const Services = () => {
         <h2 className="line-title"></h2>
         <div className="sectionFourContainer justify-center">
           <div className="servicesContainer mt-5">
-            <div className="spaImg serviceOne slideRightOnly">
+            <div className="spaImg serviceOne ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2 className="text-white">Strategic Planning and Advisory</h2>
-                <p className="serviceSummary text-white">
+                <h2 className="text-white  text-center"> Strategic Planning and Advisory</h2>
+                <p className="serviceSummary pl-2 pr-2 text-white">
                   We assist in developing strategic plans and roadmaps, support
                   organizational development and capacity assessment, and offer
                   guidance in policy formulation and review. Our advisory
@@ -21,11 +21,11 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className="pdmImg serviceTwo slideLeftOnly">
+            <div className="pdmImg serviceTwo ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2  className="text-white">Project Development and Management </h2>
-                <p className="serviceSummary text-white">
+                <h2  className="text-white text-center">Project Development and Management </h2>
+                <p className="serviceSummary pl-2 pr-2 text-white">
                   End-to-end project management services, from project design
                   and proposal development to implementation and evaluation.
                   This includes risk assessment and mitigation strategies, as
@@ -35,11 +35,11 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className=" frcImg serviceFive slideRightOnly">
+            <div className=" frcImg serviceFive ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2  className="text-white"> Fund-Raising Consultancy </h2>
-                <p className="serviceSummary text-white">
+                <h2  className="text-white text-center"> Fund-Raising Consultancy </h2>
+                <p className="serviceSummary pl-2 pr-2 text-white">
                   We provide some support for fundraising activities of project
                   sponsors of vetted and shovel-ready private sector projects,
                   and assist with drafting technical proposals to respond to
@@ -50,11 +50,11 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className="bdrImg serviceThree slideRightOnly">
+            <div className="bdrImg serviceThree ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2  className="text-white" > Business Diagnostic Reviews </h2>
-                <p className="serviceSummary text-white">
+                <h2  className="text-white text-center" > Business Diagnostic Reviews </h2>
+                <p className="serviceSummary pl-2 pr-2 text-white">
                   identify challenges, and uncover growth opportunities by
                   evaluating key areas such as operations, financial management,
                   human resources, and strategic alignment. Through in-depth
@@ -64,22 +64,22 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className="ifpImg serviceFour slideLeftOnly">
+            <div className="ifpImg serviceFour ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2  className="text-white">Investment Facilitation and Promotion</h2>
-                <p className="serviceSummary text-white">
+                <h2  className="text-white text-center">Investment Facilitation and Promotion</h2>
+                <p className="serviceSummary pl-2 pr-2 text-white">
                   strategic guidance on regulatory environments, market entry,
                   and establishing local partnerships, based on our previous
                   experience with IPAs.
                 </p>
               </div>
             </div>
-            <div className="meImg serviceNine slideRightOnly">
+            <div className="meImg serviceNine ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2  className="text-white">Monitoring and Evaluation</h2>
-                <p className="serviceSummary text-white">
+                <h2  className="text-white text-center">Monitoring and Evaluation</h2>
+                <p className="serviceSummary pl-2 pr-2 text-white">
                   We design detailed proposals and implement comprehensive
                   monitoring and evaluation frameworks, conduct baseline,
                   midline, and endline evaluations, develop data collection
@@ -87,22 +87,22 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className=" cgImg serviceEight slideLeftOnly">
+            <div className=" cgImg serviceEight ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2  className="text-white"> Corporate Governance</h2>
-                <p className=" text-white serviceSummary">
+                <h2  className="text-white text-center"> Corporate Governance</h2>
+                <p className=" text-white serviceSummary pl-2 pr-2">
                   Our comprehensive corporate governance services designed to
                   enhance organisational accountability, transparency, and
                   ethical standards in line with global best practices.{" "}
                 </p>
               </div>
             </div>
-            <div className="fddImg serviceSix slideRightOnly">
+            <div className="fddImg serviceSix ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2 className="text-white"> Financial Due Diligence </h2>
-                <p className="  serviceSummary text-white">
+                <h2 className="text-white text-center"> Financial Due Diligence </h2>
+                <p className="  serviceSummary pl-2 pr-2 text-white">
                   Our approach includes analyzing financial statements,
                   assessing financial health, evaluating cash flow, and
                   identifying potential risks and liabilities.Our expertise
@@ -111,15 +111,15 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            {/* <div className="cfsImg serviceSeven slideRightOnly">
+            {/* <div className="cfsImg serviceSeven ">
               <h2> Comprehensive Feasibility Study</h2>
               <div className="imageOverlay"></div>
             </div> */}
-            <div className=" crImg serviceTen slideLeftOnly">
+            <div className=" crImg serviceTen ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2  className="text-white"> Company Retreat</h2>
-                <p className="serviceSummary text-white">
+                <h2  className="text-white text-center"> Company Retreat</h2>
+                <p className="serviceSummary pl-2 pr-2 text-white">
                   We design and deliver tailored retreat and training programmes
                   and workshops using time-tested methodologies that guarantee
                   the effectiveness of these interventions especially for MSMEs

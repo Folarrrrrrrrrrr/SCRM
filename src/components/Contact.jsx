@@ -2,9 +2,11 @@ import { useState } from "react";
 import "../assets/style/styles.css";
 import Slider from "./Slider";
 import "./formResponsive.css";
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
+    name:"",
     email: "",
     message: "",
     file: null,
@@ -17,11 +19,59 @@ const Contact = () => {
     });
   };
   const InputHandler = (e) => {
-    setFile({
+    setFormData({
       ...formData,
       [e.target.name]: e.target.value,
     });
   };
+
+const formHandler =(e)=>{
+  e.preventDefault();
+
+  fetch('https://formspree.io/f/myzgqrnn',{
+    method:'POST',
+    headers:{
+      'content-Type': 'application/json',
+    },
+    body: JSOM.stringify(formData),
+  }).then((response)=>{
+    if(response.ok){
+      alert('email sent successfully');
+    }else{
+      alert('You can not send an email to us at this time, please try later!')
+    }
+  }).catch((err)=>{
+    console.error('Eroor: ', err)
+    alert('An error occured, try later.')
+  });
+
+  setFormData({
+    name:"",
+    email: "",
+    message: "",
+    file: null,
+  })
+
+  // emailjs.send( 'service_oozh2tq', 'template_s2iud1b', formData, 's9qqSX7CO_YQR83-I').then(
+  //   (response)=>{
+  //     console.log('SUCCESS!', response.status, response.text);
+  //     alert('Email sent successfully')
+
+  //     setFormData({
+  //       name:"",
+  //       email: "",
+  //       message: "",
+  //       file: null,
+  //     })
+  //   },
+  //   (err)=>{
+  //     console.log('Failed...', err);
+  //     alert(' You can not send message to our email at this time, kindly try again later.')
+  //   }
+  // )
+
+  
+}
 
   const Testomonials = [
     {
@@ -115,7 +165,7 @@ const Contact = () => {
           <Slider Testomonials={Testomonials} />
         </div>
         <div className="formContainer bg-white w-80">
-          <form action="" className="form">
+          <form action="" onSubmit={formHandler} className="form">
             <p className="email  text-black">engage@sharon-consultative.com</p>
             <p className="">
               <a href="callto:+2349036800896" className="text-black">
@@ -127,7 +177,9 @@ const Contact = () => {
             <hr />
             <br />
             <h1 className="formHeader text-black"> Send Us A Message </h1>
-            <input type="text" name="name" placeholder="Name" required />
+            <input type="text" name="name" 
+              value={formData.name} placeholder="Name" 
+              onChange={InputHandler}  required />
             <input
               type="email"
               name="email"
@@ -144,10 +196,7 @@ const Contact = () => {
               onChange={InputHandler}
             ></textarea>
             <input type="file" onChange={fileInputHandler} />
-            <button type="submit" className="contactForm-btn">
-              {" "}
-              Submit{" "}
-            </button>
+            <button type="submit" className="contactForm-btn">Submit</button>
             <br />
           </form>
         </div>

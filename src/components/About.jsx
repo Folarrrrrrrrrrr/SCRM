@@ -15,6 +15,7 @@ import REnergy from "../assets/images/energy.png";
 import Agric from "../assets/images/agric.png";
 import Flare from "../assets/images/gasflare.png";
 import Health from "../assets/images/health.png";
+import Edima from "../assets/images/Edima.jpg";
 const About = () => {
   const Sectors = [
     {
@@ -168,33 +169,39 @@ const About = () => {
             We've got everything you need to launch your business{" "}
           </p> */}
           <div className="servicesList mt-5">
-            {Sectors.map((sector, i) => (
-              <div
-                className={
-                  i < 2
-                    ? "slideLeft sectorCard bg-white  p-2  m-2"
-                    : "sectorCard slideLeft bg-white  p-2  m-2"
-                }
-              >
-                <img src={Sectors[i].logo} className="w-12 sectorIcon" alt="" />
-                <h4 className="cardHeader  mt-4 text-center font-semibold text-sm">
-                  {" "}
-                  {Sectors[i].Sector}
-                </h4>
-                <p className="cardDetails mt-3 text-center text-wrap text-gray-500">
-                  {Sectors[i].summary}
-                </p>
-              </div>
-            ))}
+            <div className="sectorContainer">
+              {Sectors.map((sector, i) => (
+                <div
+                  className={
+                    i < 2
+                      ? "slideLeft sectorCard   p-2  m-2"
+                      : "sectorCard slideLeft   p-2  m-2"
+                  }
+                >
+                  <img
+                    src={Sectors[i].logo}
+                    className="w-12 sectorIcon"
+                    alt=""
+                  />
+                  <h4 className="cardHeader  mt-4 text-center font-semibold text-sm">
+                    {" "}
+                    {Sectors[i].Sector}
+                  </h4>
+                  <p className="cardDetails mt-3 text-center text-wrap text-gray-500">
+                    {Sectors[i].summary}
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
 
-        <div className="HallOfFameContainer ml-10 mt-10">
-          <h1 className="HOFHeading text-xl ml-20 autoShow mt-10 text-center">
+        <div className="HallOfFameContainer  ml-10 mt-10">
+          <h1 className="HOFHeading text-xl  autoShow mt-10 text-center">
             {" "}
             OUR TEAM OF PROFESSIONALS
           </h1>
-          <div className="hofRow mt-12  text-center">
+          <div className="hofRow mt-12   text-center">
             <div className="profileCard autoBlur mt-6 text-center">
               {" "}
               <div className="imgContainer ">
@@ -205,129 +212,131 @@ const About = () => {
                 />
               </div>
               <div className="cardBox">
-                <h4 className="name text-black text-xl"> UDEME UKPONG </h4>
-                <p className="bio text-center text-black">
-                  Former Senior Manager and pioneer Head of the Energy Sector
-                  Business of the African Development Bank Limited. He served as
-                  Credit Officer (Enugu Branch),Branch Manager (lagos Apapa
-                  Branch and Head Office) of the defunct Commercial Bank of
-                  Africa Limited also former Executive Assistant to the MD/CEO
-                  of the Bank,also a member of the Think Tank and Investment
-                  Promotion Agency of the Government of Akwa Ibom state (1999 –
-                  2007). Former Vice Chairman of the Ibom Power Company Limited,
-                  an IPP of 167MW in Akwa Ibom state. MBA (1987) and BSc (1981).
-                  He has conducted Feasibility Studies for a range of private
-                  projects and participates in fund-raise and private
-                  placements.
-                </p>
-                {/* <a href={DrSamir} className="DownloadBtn">
-                  Resume
-                </a> */}
-              </div>
-            </div>
-            <div className="profileCard autoBlur mt-6 text-center">
-              <img
-                className="profilePicture  w-20 h-20"
-                src={profileIcon}
-                alt=""
-              />
-              <div className="cardBox  ">
-                <h4 className="name text-black text-xl"> EDIMA BEN EKPO</h4>
-                <p className="bio text-center text-black">
-                  Former Deputy General Manager – Risk Management for the United
-                  Bank of Africa Plc. He is a Fellow of the Institute of
-                  Chartered Accountants of Nigeria (ICAN). A senior specialist
-                  in Operational Risk Management, he is an Examiner for the
-                  Institute of Risk Management of London.
-                </p>
-                {/* <a href={DrSamir} className="DownloadBtn">
-                  Resume
-                </a> */}
-              </div>
-            </div>
-            <div className="profileCard autoBlur mt-6 text-center">
-              <img
-                className="profilePicture  w-20 h-20"
-                src={profileIcon}
-                alt=""
-              />
-              <div className="cardBox">
-                <h4 className="name text-black text-xl"> Dr. Samir Attia </h4>
-                <p className="bio text-center text-black">
-                  Samir is a Management Expert and Business Trainer helping
-                  private & public sectors achieve their business goals and
-                  conducting world-class workshops in people management for
-                  leading international companies. In Small and Medium
-                  Enterprises (SMEs), Samir provides technical consultancy and
-                  capacity-building training in Egypt and Africa in SME
-                  initiatives financed by UNIDO, UNDP, UN Women, EU, Drosos,
-                  IOM, GIZ to business women, youth in some low-income
-                  Governorates such as Shoubra Al Khaima, Ezbet El Nakhal,
-                  Minya, Wahat to raise the standard of living, reducing
-                  poverty, empowering women and youth, for economic growth and
-                  sustainability.
-                </p>
-                {/* <a href={DrSamir} className="DownloadBtn">
-                  Resume
-                </a> */}
-              </div>
-            </div>
-            <div className="profileCard autoBlur mt-6 text-center">
-              <img
-                className="profilePicture  w-20 h-20"
-                src={profileIcon}
-                alt=""
-              />
-              <div className="cardBox">
                 <h4 className="name text-black text-xl">
                   {" "}
-                  ENGR ABAYOMI JUNAID{" "}
+                  Udeme Nkana Ukpong{" "}
                 </h4>
-                <p className="bio text-center text-black">
-                  A Senior Investment Banker and former Chief Manager at the
-                  African International Bank Limited in charge of Corporate
-                  Finance. He has successfully packed Feasibility Studies, and
-                  procured financing from the banks including the defunct NIDB,
-                  Bank of Industry, Bank of Agriculture, etc. He holds a degree
-                  in Chemical Engineering with strong expertise in Production
-                  Engineering and an MBA degree.
+                <p className="bio text-left text-black">
+                  Former Senior Manager and pioneer Head of the Energy Sector
+                  Business of the African International Bank Limited. He led
+                  various high-profile projrects, including working with the
+                  EU,World Bank, and African Development Bank on initatives
+                  related to finanacial management, investmwnt climate, and
+                  agriculture. <br /> He is a Former Vice Chairman of the Ibom Power
+                  Company Limited, an IPP of 167MW in Akwa Ibom state. MBA
+                  (1987) and BSc (1981). He has conducted Feasibility Studies
+                  for a range of private projects and participates in fund-raise
+                  and private placements.
                 </p>
                 {/* <a href={DrSamir} className="DownloadBtn">
                   Resume
                 </a> */}
               </div>
             </div>
-
-            {/* </div>
-          <div className="hofRow"> */}
-            <div className="profileCard autoBlur mt-6 text-center">
-              <img
-                className="profilePicture  w-20 h-20"
-                src={profileIcon}
-                alt=""
-              />
-              <div className="cardBox">
-                <h4 className="name text-black text-xl"> SAMSON EDODI </h4>
-                <p className="bio text-center text-black">
-                  Sampson Edodi is a Research Analyst at S.C.R.M. with strong
-                  expertise in monitoring and evaluation and project management.
-                  Some of the studies undertaken or participated in include
-                  Sustainability, Urban Disaster and Resilience in a Pandemic:
-                  Sustainable Livelihoods of the Informal Sector in Islamabad,
-                  Tata Institute of Social Sciences (TISS), Mumbai (August
-                  2021); Challenges of Deepening Regional Integration and
-                  Sustainable Development in West Africa, Case of ECOWAS, ECOWAS
-                  (Jul-Sep., 2022); AI Innovation, Eurostars 3 (ESTARS3), Eureka
-                  Association, European Union (Sept/Oct. 2023); Managing the
-                  environment: issues and priority actions for sustainable waste
-                  management in Uganda, Mbarara University of Science and
-                  Technology, Uganda (2023); and COP26 Climate Exp0: Fusion of
-                  Science and Policy, COP26 Universities Network and the Italian
-                  University Network for Sustainable Development (RUS), (May 2021).
-                </p>
-                {/* <a href={DrSamir} className="DownloadBtn">
+            <div className=" otherRow flex flex-wrap">
+              <div className="profileCard autoBlur m-6 text-center">
+                <img
+                  className="profilePicture  w-20 h-20"
+                  src={Edima}
+                  // src={profileIcon}
+                  alt=""
+                />
+                <div className="cardBox  ">
+                  <h4 className="name text-black text-xl"> Edima Ben Ekpo</h4>
+                  <p className="bio text-left text-black">
+                    Former Deputy General Manager – Risk Management for the
+                    United Bank of Africa Plc. <br /> He is a Fellow of the Institute
+                    of Chartered Accountants of Nigeria (ICAN). A senior
+                    specialist in Operational Risk Management, he is an Examiner
+                    for the Institute of Risk Management of London.
+                  </p>
+                  {/* <a href={DrSamir} className="DownloadBtn">
                   Resume
                 </a> */}
+                </div>
+              </div>
+              <div className="profileCard autoBlur m-6 text-center">
+                <img
+                  className="profilePicture  w-20 h-20"
+                  src={profileIcon}
+                  alt=""
+                />
+                <div className="cardBox">
+                  <h4 className="name text-black text-xl"> Dr. Samir Attia </h4>
+                  <p className="bio text-left text-black">
+                    Samir is a Management Expert and Business Trainer helping
+                    private & public sectors achieve their business goals and
+                    conducting world-class workshops in people management for
+                    leading international companies. <br /> In Small and Medium
+                    Enterprises (SMEs), Samir provides technical consultancy and
+                    capacity-building training in Egypt and Africa in SME
+                    initiatives financed by UNIDO, UNDP, UN Women, EU, Drosos,
+                    IOM, GIZ to business women, youth in some low-income
+                    Governorates such as Shoubra Al Khaima, Ezbet El Nakhal,
+                    Minya, Wahat to raise the standard of living, reducing
+                    poverty, empowering women and youth, for economic growth and
+                    sustainability.
+                  </p>
+                  {/* <a href={DrSamir} className="DownloadBtn">
+                  Resume
+                </a> */}
+                </div>
+              </div>
+              <div className="profileCard autoBlur m-6 text-center">
+                <img
+                  className="profilePicture  w-20 h-20"
+                  src={profileIcon}
+                  alt=""
+                />
+                <div className="cardBox">
+                  <h4 className="name text-black text-xl">
+                    {" "}
+                    ENGR ABAYOMI JUNAID{" "}
+                  </h4>
+                  <p className="bio text-left text-black">
+                    A Senior Investment Banker and former Chief Manager at the
+                    African International Bank Limited in charge of Corporate
+                    Finance. He has successfully packed Feasibility Studies, and
+                    procured financing from the banks including the defunct
+                    NIDB, Bank of Industry, Bank of Agriculture, etc. <br /> He holds a
+                    degree in Chemical Engineering with strong expertise in
+                    Production Engineering and an MBA degree.
+                  </p>
+                  {/* <a href={DrSamir} className="DownloadBtn">
+                  Resume
+                </a> */}
+                </div>
+              </div>
+              <div className="profileCard autoBlur m-6 text-center">
+                <img
+                  className="profilePicture  w-20 h-20"
+                  src={profileIcon}
+                  alt=""
+                />
+                <div className="cardBox">
+                  <h4 className="name text-black text-xl"> SAMSON EDODI </h4>
+                  <p className="bio text-left text-black">
+                    Sampson Edodi is a Research Analyst at S.C.R.M. with strong
+                    expertise in monitoring and evaluation and project
+                    management. <br /> Some of the studies undertaken or participated
+                    in include Sustainability, Urban Disaster and Resilience in
+                    a Pandemic: Sustainable Livelihoods of the Informal Sector
+                    in Islamabad, Tata Institute of Social Sciences (TISS),
+                    Mumbai (August 2021); Challenges of Deepening Regional
+                    Integration and Sustainable Development in West Africa, Case
+                    of ECOWAS, ECOWAS (Jul-Sep., 2022); AI Innovation, Eurostars
+                    3 (ESTARS3), Eureka Association, European Union (Sept/Oct.
+                    2023); Managing the environment: issues and priority actions
+                    for sustainable waste management in Uganda, Mbarara
+                    University of Science and Technology, Uganda (2023); and
+                    COP26 Climate Exp0: Fusion of Science and Policy, COP26
+                    Universities Network and the Italian University Network for
+                    Sustainable Development (RUS), (May 2021).
+                  </p>
+                  {/* <a href={DrSamir} className="DownloadBtn">
+                  Resume
+                </a> */}
+                </div>
               </div>
             </div>
           </div>
