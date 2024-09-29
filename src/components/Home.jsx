@@ -54,7 +54,7 @@ const Home = () => {
             focus on strong fear of God in our dealings, innovation, excellence,
             integrity, and collaboration, we are dedicated to helping our
             discerning clients achieve their goals and navigate complex
-            challenges in an ever-evolving global landscape. Our firm has a
+            challenges in an ever-evolving global landscape.  Our firm has a
             growing pool of senior experts including senior economists,
             agribusiness researchers, certified finance specialists, consulting
             industry specialists, health management specialists, academicians,

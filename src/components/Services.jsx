@@ -55,7 +55,7 @@ const Services = () => {
               <div className="overlayContent">
                 <h2  className="text-white  text-center" > Business Diagnostic Reviews </h2>
                 <p className="serviceSummary pl-2 pr-2 text-white">
-                  identify challenges, and uncover growth opportunities by
+                  Identify challenges, and uncover growth opportunities by
                   evaluating key areas such as operations, financial management,
                   human resources, and strategic alignment. Through in-depth
                   analysis and customized solutions, we help businesses optimize
@@ -67,7 +67,7 @@ const Services = () => {
             <div className="ifpImg serviceFour ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2 className="text-red-500  text-center">Investment Facilitation and Promotion</h2>
+                <h2 className="text-white  text-center">Investment Facilitation and Promotion</h2>
                 <p className="serviceSummary pl-2 pr-2 text-white">
                   strategic guidance on regulatory environments, market entry,
                   and establishing local partnerships, based on our previous
