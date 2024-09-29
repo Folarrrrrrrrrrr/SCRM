@@ -6,6 +6,12 @@
         padding: 25px;
         left: 10%;
       }
+      .contactForm-btn{
+        position: relative;
+        top: 3px;
+        cursor: pointer;
+        z-index: 999;
+      }
 }
 
 @media (min-width: 768px) and (max-width: 1104px) {

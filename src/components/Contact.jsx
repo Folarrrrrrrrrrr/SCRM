@@ -173,9 +173,7 @@ const formHandler =(e)=>{
                 +234-815-899-4058{" "}
               </a>
             </p>
-            <br />
             <hr />
-            <br />
             <h1 className="formHeader text-black"> Send Us A Message </h1>
             <input type="text" name="name" 
               value={formData.name} placeholder="Name" 

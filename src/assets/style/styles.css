@@ -1034,19 +1034,19 @@ button {
     display: grid;
     /* border: 2px solid white; */
   }
-  .btn-two {
+  /* .btn-two {
     position: relative;
     top: -25px;
-  }
+  } */
   /* {
     position: relative;
     left: -10px;
     border:  2px solid white;
   } */
-  .form-btn {
+  /* .form-btn {
     position: relative;
     left: 40%;
-  }
+  } */
 
   .servicesContainer {
     /* border: 2px solid white; */
@@ -1425,11 +1425,11 @@ h1 {
   /* font-size: 14px; */
   font-weight: 550;
 }
-.btn:hover {
+/* .btn:hover {
   background: rgba(231, 55, 0, 0.7);
   color: #ffffff;
   border: 1.5px solid rgba(231, 55, 0, 0.4);
-}
+} */
 /************ Second Section ends ***************/
 
 /************ Third Section Begins ***************/
@@ -1568,6 +1568,7 @@ form textarea {
   padding: 10px;
   border-radius: 10px;
   border: 0.5px solid black;
+  cursor: pointer;
 }
 .contactForm-btn:hover {
   background: #000000;
