@@ -323,7 +323,14 @@ ul li .links:hover {
 /**************** Services Section ends **********/
 
 /* About css starts */
+
+.visionContainer{
+  align-items: center;
+  justify-content: center;
+  /* width: 80vw */
+}
 .autoShow {
+  align-self: center;
   animation: AutoShowAnimation both;
   animation-timeline: view(70% 5%);
 }
@@ -877,6 +884,11 @@ button {
     font-size: 24px;
     line-height: 32px;
   }
+  .visionContainer{
+    align-items: center;
+    justify-content: center;
+    width: 90vw
+  }
   .servicesContainer {
     /* border: 2px solid white; */
     display: flex;
@@ -1034,19 +1046,11 @@ button {
     display: grid;
     /* border: 2px solid white; */
   }
-  /* .btn-two {
-    position: relative;
-    top: -25px;
-  } */
-  /* {
-    position: relative;
-    left: -10px;
-    border:  2px solid white;
-  } */
-  /* .form-btn {
-    position: relative;
-    left: 40%;
-  } */
+  .visionContainer{
+    align-items: center;
+    justify-content: center;
+    width: 85vw
+  }
 
   .servicesContainer {
     /* border: 2px solid white; */

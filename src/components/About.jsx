@@ -134,10 +134,10 @@ const About = () => {
         <div className="p-10">
           <div className="visionContainer">
             <div className="visionStatement">
-              <h3 className="text-2xl ml-20 autoShow  mt-10 text-center">
+              <h3 className="text-2xl  autoShow  mt-10 text-center">
                 OUR VISION STATEMENT
               </h3>
-              <h3 className=" text-xl  ml-20 autoShow text-wrap text-center">
+              <h3 className=" text-xl   autoShow text-wrap text-center">
                 "To support the unlocking of the potentials of the African
                 economy using Nigeria as the starting point because of it's
                 market size, youth population, institutional voids and the sheer
@@ -147,10 +147,10 @@ const About = () => {
           </div>
           <div className="visionContainer">
             <div className="visionStatement">
-              <h3 className="text-2xl ml-20 autoShow  mt-10 text-center">
+              <h3 className="text-2xl autoShow  mt-10 text-center">
                 MISION STATEMENT
               </h3>
-              <h3 className=" text-xl  ml-20 autoShow text-wrap text-center">
+              <h3 className=" text-xl   autoShow text-wrap text-center">
                 “To support the growth in the GDP and development of a few
                 sub-national entities in Africa using skilled personnel,
                 disruptive innovations, and data-driven solutions.”
@@ -159,10 +159,10 @@ const About = () => {
           </div>
           <div className="visionContainer">
             <div className="visionStatement">
-              <h3 className="text-2xl ml-20 autoShow  mt-10 text-center">
+              <h3 className="text-2xl  autoShow  mt-10 text-center">
                 STRATEGIC ALLIANCES
               </h3>
-              <h3 className=" text-xl  ml-20 autoShow text-wrap text-center">
+              <h3 className=" text-xl  autoShow text-wrap text-center">
                 Over many years, our firm has built several strategic alliances
                 to undertake sensitive projects across various sectors.
                 Typically, we work with firms and senior professionals with at
