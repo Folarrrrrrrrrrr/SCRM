@@ -101,7 +101,7 @@ const Services = () => {
             <div className="fddImg serviceSix ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2 className="text-white t ext-center"> Financial Due Diligence </h2>
+                <h2 className="text-white text-center"> Financial Due Diligence </h2>
                 <p className="  serviceSummary pl-2 pr-2 text-white">
                   Our approach includes analyzing financial statements,
                   assessing financial health, evaluating cash flow, and

@@ -12,24 +12,23 @@ const Home = () => {
       <div id="home" className="section">
         <div className="BannerContaier  p-4 h-screen">
           <div className="HeroText mt-52 ">
-            {/* <h1 className="HeroHeader   font-Poppins">
+            <h1 className="HeroHeader   font-Poppins">
               WELCOME TO{" "}
               <span className=" text-green-400 font-Poppins font-semibold ">
-                S.C.R.M.
+                S.C.R.M
               </span>
-            </h1> */}
+            </h1>
             
             <h3 className="summary   text-wrap text-left">
-              Sharon Consultative & Research Management, established 1997. We
-              are your trusted partner in financial consulting.
+              Sharon Consultative & Research Management was established in 1997 as a multidisciplinary partnership
             </h3>
-            <h3 className="summary  text-wrap text-left">
-              We specialze in providing tailored financial solutions to help
+            {/* <h3 className="summary  text-wrap text-left">
+              We specialze in providing tailored solutions to help
               businessses
             </h3>
             <h3 className="summary  text-wrap text-left">
               achieve their financial goals.
-            </h3>
+            </h3> */}
           </div>
           <div
             className="buttonContainer  flex  items-center

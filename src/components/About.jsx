@@ -27,12 +27,12 @@ const About = () => {
       summary:
         "Focuses on reducing waste by reusing, recycling, and refurbishing materials to promote sustainable development and innovation in designing products that can be reused, extending the life cycle of resources.",
     },
-    {
-      logo: Finance,
-      Sector: " FINANCIAL SERVICES",
-      summary:
-        "The financial services vertical including Banks, Insurance, and Investment  firms, plays a key role in managing money and supporting economic growth. Digital technologies like fintech are transforming how financial products are accessed and delivered ",
-    },
+    // {
+    //   logo: Finance,
+    //   Sector: " FINANCIAL SERVICES",
+    //   summary:
+    //     "The financial services vertical including Banks, Insurance, and Investment  firms, plays a key role in managing money and supporting economic growth. Digital technologies like fintech are transforming how financial products are accessed and delivered ",
+    // },
     {
       logo: Communication,
       Sector: " COMMUNICATION, AND DIGITAL ECONOMY",
@@ -66,7 +66,7 @@ const About = () => {
     },
     {
       logo: Therna,
-      Sector: "THERNAL POWER PLANTS",
+      Sector: "THERMAL POWER PLANTS",
       summary:
         "Thernal power plants convert heat from fossil fuels into electricity, making them major energy producers but also contributors to carbon emissions. Cleaner technologies are being adopted to reduce their environmental impact.",
     },
@@ -131,33 +131,48 @@ const About = () => {
     <>
       <div id="about" className="section3 mt-7 ">
         <h2 className="line-title"></h2>
-        <div className="visionContainer">
-          <div className="visionStatement">
-            <h3 className="text-2xl ml-20 autoShow  mt-10 text-center">
-              OUR VISION STATEMENT
-            </h3>
-            <h3 className=" text-xl  ml-20 autoShow text-wrap text-center">
-              "To support the unlocking of the potentials of the African economy
-              using Nigeria as the starting point because of it's market
-              size,youth population, institutional voids and the sheer magnitude
-              ot technological innovations"
-            </h3>
+        <div className="p-10">
+          <div className="visionContainer">
+            <div className="visionStatement">
+              <h3 className="text-2xl ml-20 autoShow  mt-10 text-center">
+                OUR VISION STATEMENT
+              </h3>
+              <h3 className=" text-xl  ml-20 autoShow text-wrap text-center">
+                "To support the unlocking of the potentials of the African
+                economy using Nigeria as the starting point because of it's
+                market size, youth population, institutional voids and the sheer
+                magnitude ot technological innovations"
+              </h3>
+            </div>
           </div>
-        </div>
-        <div className="visionContainer">
-          <div className="visionStatement">
-            <h3 className="text-2xl ml-20 autoShow  mt-10 text-center">
-              STRATEGIC ALLIANCES
-            </h3>
-            <h3 className=" text-xl  ml-20 autoShow text-wrap text-center">
-              Over many years, our firm has built several strategic alliances to
-              undertake sensitive projects acros various sectors. Typically, we
-              work with firms and senior professional with at least 15years of
-              experience in the specific sector of the projectthat we undertake.
-              These firms are well known to provide thought leadershipin those
-              specific sector, example, Project Finance, Infrastructure,
-              Finance, Renewable Energy, Cleantech, etc.
-            </h3>
+          <div className="visionContainer">
+            <div className="visionStatement">
+              <h3 className="text-2xl ml-20 autoShow  mt-10 text-center">
+                MISION STATEMENT
+              </h3>
+              <h3 className=" text-xl  ml-20 autoShow text-wrap text-center">
+                “To support the growth in the GDP and development of a few
+                sub-national entities in Africa using skilled personnel,
+                disruptive innovations, and data-driven solutions.”
+              </h3>
+            </div>
+          </div>
+          <div className="visionContainer">
+            <div className="visionStatement">
+              <h3 className="text-2xl ml-20 autoShow  mt-10 text-center">
+                STRATEGIC ALLIANCES
+              </h3>
+              <h3 className=" text-xl  ml-20 autoShow text-wrap text-center">
+                Over many years, our firm has built several strategic alliances
+                to undertake sensitive projects across various sectors.
+                Typically, we work with firms and senior professionals with at
+                least 15years of experience in the specific sector of the
+                project that we undertake. These firms are well known to provide
+                thought leadership in those specific sector, example, Project
+                Finance, Infrastructure, Finance, Renewable Energy, Cleantech,
+                etc.
+              </h3>
+            </div>
           </div>
         </div>
         <br />
@@ -208,28 +223,28 @@ const About = () => {
             <div className="profileCard autoBlur mt-6 text-center">
               {" "}
               <div className="imgContainer ">
-                <img
-                  className="profilePicture  w-20 h-20"
-                  src={Udeme}
-                  alt=""
-                />
+                <img className="profilePicture  w-20 h-20" src={Udeme} alt="" />
               </div>
               <div className="cardBox">
                 <h4 className="name text-black text-xl">
                   {" "}
                   Udeme Nkana Ukpong{" "}
                 </h4>
-                <p className="bio text-left text-black">
-                  Former Senior Manager and pioneer Head of the Energy Sector
-                  Business of the African International Bank Limited. He led
-                  various high-profile projrects, including working with the
-                  EU,World Bank, and African Development Bank on initatives
-                  related to finanacial management, investmwnt climate, and
-                  agriculture. <br /> He is a Former Vice Chairman of the Ibom Power
-                  Company Limited, an IPP of 167MW in Akwa Ibom state. MBA
-                  (1987) and BSc (1981). He has conducted Feasibility Studies
-                  for a range of private projects and participates in fund-raise
-                  and private placements.
+                <p className="bio text-left p-2 text-black">
+                  Udeme Nkana Ukpong is an experienced financial and project
+                  management expert, having served as a Senior Manager and
+                  pioneer Head of the Energy Sector at African International
+                  Bank and held key positions at Commercial Bank of Africa.{" "}
+                  <br /> He was a member of the Investment Promotion Agency of
+                  Akwa Ibom state and Vice Chairman of Ibom Power Company
+                  Limited. With over 20 years of consulting experience, he has
+                  led various high-profile projects, including working with the
+                  EU, World Bank, and African Development Bank on initiatives
+                  related to financial management, investment climate, and
+                  agriculture. Udeme has also conducted feasibility studies and
+                  participated in fundraising for private projects. He holds an
+                  MBA from the University of Port Harcourt and a BSc from the
+                  University of Calabar.
                 </p>
                 {/* <a href={DrSamir} className="DownloadBtn">
                   Resume
@@ -246,12 +261,22 @@ const About = () => {
                 />
                 <div className="cardBox  ">
                   <h4 className="name text-black text-xl"> Edima Ben Ekpo</h4>
-                  <p className="bio text-left text-black">
-                    Former Deputy General Manager – Risk Management for the
-                    United Bank of Africa Plc. <br /> He is a Fellow of the Institute
-                    of Chartered Accountants of Nigeria (ICAN). A senior
-                    specialist in Operational Risk Management, he is an Examiner
-                    for the Institute of Risk Management of London.
+                  <p className="bio text-left p-2 text-black">
+                    Edima Ben Ekpo is a Senior Risk Management Consultant with
+                    over 35 years of experience in risk management, auditing,
+                    banking operations, and consulting. He holds an MBA in
+                    Banking and Finance and is a Fellow of several prestigious
+                    institutions including the Institute of Chartered
+                    Accountants of Nigeria and the Chartered Risk Management
+                    Institution of Nigeria. He has led various projects,
+                    including implementing operational risk management and
+                    developing governance and policy documents for financial
+                    institutions in Africa. <br /> Edima is a certified
+                    facilitator in risk management, internal audit, and
+                    compliance and serves as a chief examiner for professional
+                    risk management examinations. Currently, he consults for
+                    Bloom Bank Africa and Oakwoods Green Africa Group, focusing
+                    on governance, risk management, and compliance frameworks.
                   </p>
                   {/* <a href={DrSamir} className="DownloadBtn">
                   Resume
@@ -259,26 +284,27 @@ const About = () => {
                 </div>
               </div>
               <div className="profileCard autoBlur m-6 text-center">
-                <img
-                  className="profilePicture  w-20 h-20"
-                  src={samir}
-                  alt=""
-                />
+                <img className="profilePicture  w-20 h-20" src={samir} alt="" />
                 <div className="cardBox">
                   <h4 className="name text-black text-xl"> Dr. Samir Attia </h4>
-                  <p className="bio text-left text-black">
-                    Samir is a Management Expert and Business Trainer helping
-                    private & public sectors achieve their business goals and
-                    conducting world-class workshops in people management for
-                    leading international companies. <br /> In Small and Medium
-                    Enterprises (SMEs), Samir provides technical consultancy and
-                    capacity-building training in Egypt and Africa in SME
-                    initiatives financed by UNIDO, UNDP, UN Women, EU, Drosos,
-                    IOM, GIZ to business women, youth in some low-income
-                    Governorates such as Shoubra Al Khaima, Ezbet El Nakhal,
-                    Minya, Wahat to raise the standard of living, reducing
-                    poverty, empowering women and youth, for economic growth and
-                    sustainability.
+                  <p className="bio text-left p-2 text-black">
+                    Dr. Samir Attia is a seasoned Management Expert and Business
+                    Trainer with extensive experience helping private and public
+                    sectors achieve their business goals through workshops and
+                    training programs. <br /> He specializes in SME capacity-building
+                    in Egypt and Africa, working with international
+                    organizations like UNIDO, UNDP, and GIZ to empower women and
+                    youth for economic growth and sustainability. <br /> In the oil and
+                    gas sector, Samir has provided training for major companies
+                    like Kuwait Oil Company, Saudi Aramco, ADNOC, and Chevron
+                    Kuwait, as well as for key players in telecommunications and
+                    banking across the Middle East and Africa.  His global
+                    expertise includes assignments with the American Management
+                    Association, the World Bank Group, and the International
+                    Finance Corporation. Dr. Attia holds a Ph.D. in Corporate
+                    Social Responsibility from the Holland Academy for Science &
+                    Arts and a Master’s in Management from Sadat Academy for
+                    Management Science.
                   </p>
                   {/* <a href={DrSamir} className="DownloadBtn">
                   Resume
@@ -296,14 +322,15 @@ const About = () => {
                     {" "}
                     Engr. Abayomi Jinaid{" "}
                   </h4>
-                  <p className="bio text-left text-black">
-                    A Senior Investment Banker and former Chief Manager at the
-                    African International Bank Limited in charge of Corporate
-                    Finance. He has successfully packed Feasibility Studies, and
-                    procured financing from the banks including the defunct
-                    NIDB, Bank of Industry, Bank of Agriculture, etc. <br /> He holds a
-                    degree in Chemical Engineering with strong expertise in
-                    Production Engineering and an MBA degree.
+                  <p className="bio text-left p-2 text-black">
+                    Engineer Abayomi Jinaid is a Senior Investment Banker and
+                    former Chief Manager at the African International Bank
+                    Limited in charge of Corporate Finance. He has successfully
+                    packaged Feasibility Studies, and procured financing from
+                    various banks including the defunct NIDB, Bank of Industry,
+                    Bank of Agriculture, etc. He holds a degree in Chemical
+                    Engineering with strong expertise in Production Engineering
+                    and an MBA degree.
                   </p>
                   {/* <a href={DrSamir} className="DownloadBtn">
                   Resume
@@ -318,23 +345,16 @@ const About = () => {
                 />
                 <div className="cardBox">
                   <h4 className="name text-black text-xl"> Sampson Edodi </h4>
-                  <p className="bio text-left text-black">
-                    Sampson Edodi is a Research Analyst at S.C.R.M. with strong
-                    expertise in monitoring and evaluation and project
-                    management. <br /> Some of the studies undertaken or participated
-                    in include Sustainability, Urban Disaster and Resilience in
-                    a Pandemic: Sustainable Livelihoods of the Informal Sector
-                    in Islamabad, Tata Institute of Social Sciences (TISS),
-                    Mumbai (August 2021); Challenges of Deepening Regional
-                    Integration and Sustainable Development in West Africa, Case
-                    of ECOWAS, ECOWAS (Jul-Sep., 2022); AI Innovation, Eurostars
-                    3 (ESTARS3), Eureka Association, European Union (Sept/Oct.
-                    2023); Managing the environment: issues and priority actions
-                    for sustainable waste management in Uganda, Mbarara
-                    University of Science and Technology, Uganda (2023); and
-                    COP26 Climate Exp0: Fusion of Science and Policy, COP26
-                    Universities Network and the Italian University Network for
-                    Sustainable Development (RUS), (May 2021).
+                  <p className="bio text-left p-2 text-black">
+                    Sampson Edodi is a Research Analyst at S.C.R.M. with
+                    expertise in monitoring, evaluation, and project management.
+                    He has participated in various studies, including projects
+                    on urban disaster resilience, regional integration in West
+                    Africa, AI innovation, and sustainable waste management in
+                    Uganda. Sampson holds a Master’s in Development Studies from
+                    Mbarara University of Science and Technology. He also has a
+                    Master’s in Applied Ethics and a Bachelor’s in Philosophy
+                    from the University of Port Harcourt.
                   </p>
                   {/* <a href={DrSamir} className="DownloadBtn">
                   Resume
