@@ -11,7 +11,10 @@ const Services = () => {
             <div className="spaImg serviceOne ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2 className="text-white  text-center"> Strategic Planning and Advisory</h2>
+                <h2 className="text-white  text-center">
+                  {" "}
+                  Strategic Planning and Advisory
+                </h2>
                 <p className="serviceSummary pl-2 pr-2 text-white">
                   We assist in developing strategic plans and roadmaps, support
                   organizational development and capacity assessment, and offer
@@ -24,21 +27,26 @@ const Services = () => {
             <div className="pdmImg serviceTwo ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2  className="text-white   text-center">Project Development and Management </h2>
+                <h2 className="text-white   text-center">
+                  Project Development and Management{" "}
+                </h2>
                 <p className="serviceSummary pl-2 pr-2 text-white">
-                  End-to-end project management services, from project design
-                  and proposal development to implementation and evaluation.
-                  This includes risk assessment and mitigation strategies, as
-                  well as financial and resource management to ensure project
-                  success. We now have specialist support for risk management
-                  and operational risk work in West Africa.
+                  We offer end-to-end project management services, from project
+                  design and proposal development to implementation and
+                  evaluation. This includes risk assessment and mitigation
+                  strategies, as well as financial and resource management to
+                  ensure project success. We now have specialist support for
+                  risk management and operational risk work in West Africa.
                 </p>
               </div>
             </div>
             <div className=" frcImg serviceFive ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2  className="text-white  text-center"> Fund-Raising Consultancy </h2>
+                <h2 className="text-white  text-center">
+                  {" "}
+                  Support for Fundraising{" "}
+                </h2>
                 <p className="serviceSummary pl-2 pr-2 text-white">
                   We provide some support for fundraising activities of project
                   sponsors of vetted and shovel-ready private sector projects,
@@ -53,24 +61,41 @@ const Services = () => {
             <div className="bdrImg serviceThree ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2  className="text-white  text-center" > Business Diagnostic Reviews </h2>
+                <h2 className="text-white -mt-10 text-center">
+                  {" "}
+                  Business Diagnostic Reviews{" "}
+                </h2>
                 <p className="serviceSummary pl-2 pr-2 text-white">
-                  Identify challenges, and uncover growth opportunities by
-                  evaluating key areas such as operations, financial management,
-                  human resources, and strategic alignment. Through in-depth
-                  analysis and customized solutions, we help businesses optimize
-                  their processes, enhance efficiency, and achieve long-term
-                  sustainability to cope with competition
+                  We offer comprehensive business diagnostiv service to access
+                  the organizational performance for MSMEs using global
+                  technologies to dentify challenges, and uncover growth
+                  opportunities by evaluating key areas such as operations,
+                  financial management, human resources, and strategic
+                  alignment. Through in-depth analysis and customized solutions,
+                  we help businesses optimize their processes, enhance
+                  efficiency, and achieve long-term sustainability to cope with
+                  competition.
                 </p>
               </div>
             </div>
+            
+
             <div className="ifpImg serviceFour ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2 className="text-white  text-center">Investment Facilitation and Promotion</h2>
-                <p className="serviceSummary pl-2 pr-2 text-white">
-                  strategic guidance on regulatory environments, market entry,
-                  and establishing local partnerships, based on our previous
+                <h2 className="text-white -mt-16 text-center">
+                  Investment Facilitation and Promotion
+                </h2>
+                <p className="serviceSummary pl-2  pr-2 text-white">
+                  We provide tailored investment facilitation and promotion
+                  services to attract and secure investment that drives economic
+                  growth and development. Our team works with the local
+                  businesses in the region and leverages our local reach to
+                  identify investnment opportunities, develop and engage
+                  potential investors for distinctive opportunities that we are
+                  commissioned to research for them. <br /> We offer strategic
+                  guidance on regulatory environments, market entry, and
+                  establishing local partnership, based on our previous
                   experience with IPAs.
                 </p>
               </div>
@@ -78,7 +103,9 @@ const Services = () => {
             <div className="meImg serviceNine ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2  className="text-white  text-center">Monitoring and Evaluation</h2>
+                <h2 className="text-white  text-center">
+                  Monitoring and Evaluation
+                </h2>
                 <p className="serviceSummary pl-2 pr-2 text-white">
                   We design detailed proposals and implement comprehensive
                   monitoring and evaluation frameworks, conduct baseline,
@@ -87,38 +114,10 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className=" cgImg serviceEight ">
-              <div className="imageOverlay"></div>
-              <div className="overlayContent">
-                <h2  className="text-white  text-center"> Corporate Governance</h2>
-                <p className=" text-white serviceSummary pl-2 pr-2">
-                  Our comprehensive corporate governance services designed to
-                  enhance organisational accountability, transparency, and
-                  ethical standards in line with global best practices.{" "}
-                </p>
-              </div>
-            </div>
-            <div className="fddImg serviceSix ">
-              <div className="imageOverlay"></div>
-              <div className="overlayContent">
-                <h2 className="text-white text-center"> Financial Due Diligence </h2>
-                <p className="  serviceSummary pl-2 pr-2 text-white">
-                  Our approach includes analyzing financial statements,
-                  assessing financial health, evaluating cash flow, and
-                  identifying potential risks and liabilities.Our expertise
-                  supports clients in mitigating financial risks and maximizing
-                  the value of their transactions
-                </p>
-              </div>
-            </div>
-            {/* <div className="cfsImg serviceSeven ">
-              <h2> Comprehensive Feasibil ity Study</h2>
-              <div className="imageOverlay"></div>
-            </div> */}
             <div className=" crImg serviceTen ">
               <div className="imageOverlay"></div>
               <div className="overlayContent">
-                <h2  className="text-white  text-center"> Company Retreat</h2>
+                <h2 className="text-white  text-center"> Company Retreats</h2>
                 <p className="serviceSummary pl-2 pr-2 text-white">
                   We design and deliver tailored retreat and training programmes
                   and workshops using time-tested methodologies that guarantee
@@ -127,6 +126,52 @@ const Services = () => {
                 </p>
               </div>
             </div>
+            <div className=" cgImg serviceEight ">
+              <div className="imageOverlay"></div>
+              <div className="overlayContent">
+                <h2 className="text-white -mt-12  text-center">
+                  {" "}
+                  Corporate Governance
+                </h2>
+                <p className=" text-white serviceSummary pl-2 pr-2">
+                  Our comprehensive corporate governance services are designed
+                  to enhance organizational accountability, transparency, and
+                  ethical standards in line with global best practices. Our
+                  services include developing and implementing governance
+                  frameworks, conducting governance audits, and advising best
+                  practices for board structure and function. <br /> We can
+                  assist credible private sector MSMEs to establish robust
+                  governance policies, ensure compliance with regulatory
+                  requirements, and foster a culture of integrity and
+                  responsibility.
+                </p>
+              </div>
+            </div>
+            <div className="fddImg serviceSix ">
+              <div className="imageOverlay"></div>
+              <div className="overlayContent">
+                <h2 className="text-white -mt-16 text-center">
+                  {" "}
+                  Financial Due Diligence{" "}
+                </h2>
+                <p className="  serviceSummary  pl-2 pr-2 text-white">
+                  We provide financial due diligence services to help private
+                  entities and investor groups to make informed decisions in
+                  acquisitions, and investments. <br />
+                  Our approach includes analyzing financial statements,
+                  assessing financial health, evaluating cash flow, and
+                  identifying potential risks and liabilities. We offer insights
+                  into the financial stability and performance of potential
+                  partners or acquisition targets, ensuring that our clients
+                  have a clear understanding of the financial landscape before
+                  making critical business decisions. Our expertise supports
+                  clients in mitigating financial risks and maximizing the value
+                  of their transactions
+                </p>
+              </div>
+            </div>
+            
+            
           </div>
           {/* <div className="contactContainer">
             <h2 className="line-title">  Contact Me</h2>

@@ -15,12 +15,14 @@ const Home = () => {
             <h1 className="HeroHeader   font-Poppins">
               WELCOME TO{" "}
               <span className=" text-green-400 font-Poppins font-semibold ">
-                S.C.R.M
+                S.C.R.M.
               </span>
             </h1>
-            
+
             <h3 className="summary   text-wrap text-left">
-              Sharon Consultative & Research Management was established in 1997 as a multidisciplinary partnership
+              Sharon Consultative & Research Management was established in 1997
+              as a multidisciplinary <br /> consulting,  advisory and reaearch
+              management practice.
             </h3>
             {/* <h3 className="summary  text-wrap text-left">
               We specialze in providing tailored solutions to help

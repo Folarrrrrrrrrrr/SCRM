@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import './modal.css'
 
-
 export default function Modal(props) {
   const [modal, setModal] = useState(false);
 
@@ -14,7 +13,7 @@ export default function Modal(props) {
   }else{
     document.body.classList.remove('activeModal')
   }
-  return (
+  return(
     <div className='modalContainer'>
       <button onClick={toggleModal} className={props.modalButtonStyle}> {props.btnText}</button>
     {modal &&(
@@ -31,3 +30,4 @@ export default function Modal(props) {
     </div>
   );
 }
+

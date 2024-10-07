@@ -43,14 +43,14 @@ const About = () => {
       logo: REnergy,
       Sector: " RENEWABLE ENERGY ",
       summary:
-        " Investing in renewable energy infrastructure boost economic growth and job creation as we committed to reducing carbon emmissions, offering a sustainable alternative to fossol fuels while ehancing energy",
+        " Investing in renewable energy infrastructure boost economic growth and job creation as we committed to reducing carbon emmissions, offering a sustainable alternative to fossil fuels while ehancing energy",
     },
 
     {
       logo: Flare,
       Sector: "GAS FLARES",
       summary:
-        " Excess natural gas is burned off durong oil extraction, contributing, to greenhouse gas emissions wasting valuable energy that could br harnessed for power genration. Efforts are underway to reduce flaring through regulatory frameworks and gas recovery technologies",
+        " Excess natural gas is burned off during oil extraction, contributing to greenhouse gas emissions wasting valuable energy that could be harnessed for power generation. Efforts are underway to reduce flaring through regulatory frameworks and gas recovery technologies",
     },
     {
       logo: waterTrans,
@@ -72,7 +72,7 @@ const About = () => {
     },
     {
       logo: Estate,
-      Sector: "REAL ESTATE ",
+      Sector: "REAL ESTATES ",
       summary:
         "Development, buying, and sellong of property for residential, commercial or industrial use. It drives economic growth and shapes urban development, with sustainability becoming an impotrtant factor. Smart building anf green infrastructure are increasingly in demand for energy-efficient, eco-friendly living and working spaces.",
     },
@@ -168,9 +168,10 @@ const About = () => {
                 Typically, we work with firms and senior professionals with at
                 least 15years of experience in the specific sector of the
                 project that we undertake. These firms are well known to provide
-                thought leadership in those specific sector, example, Project
+                thought leadership in those specific sectors,  example, Project
                 Finance, Infrastructure, Finance, Renewable Energy, Cleantech,
-                etc.
+                etc. We aim to continue to weigh in on their expertise and
+                insights for all relevant assignments that we undetake.
               </h3>
             </div>
           </div>
@@ -235,7 +236,7 @@ const About = () => {
                   management expert, having served as a Senior Manager and
                   pioneer Head of the Energy Sector at African International
                   Bank and held key positions at Commercial Bank of Africa.{" "}
-                  <br /> He was a member of the Investment Promotion Agency of
+                  He was a member of the Investment Promotion Agency of
                   Akwa Ibom state and Vice Chairman of Ibom Power Company
                   Limited. With over 20 years of consulting experience, he has
                   led various high-profile projects, including working with the
@@ -271,7 +272,7 @@ const About = () => {
                     Institution of Nigeria. He has led various projects,
                     including implementing operational risk management and
                     developing governance and policy documents for financial
-                    institutions in Africa. <br /> Edima is a certified
+                    institutions in Africa.  Edima is a certified
                     facilitator in risk management, internal audit, and
                     compliance and serves as a chief examiner for professional
                     risk management examinations. Currently, he consults for
@@ -291,20 +292,20 @@ const About = () => {
                     Dr. Samir Attia is a seasoned Management Expert and Business
                     Trainer with extensive experience helping private and public
                     sectors achieve their business goals through workshops and
-                    training programs. <br /> He specializes in SME capacity-building
-                    in Egypt and Africa, working with international
-                    organizations like UNIDO, UNDP, and GIZ to empower women and
-                    youth for economic growth and sustainability. <br /> In the oil and
-                    gas sector, Samir has provided training for major companies
-                    like Kuwait Oil Company, Saudi Aramco, ADNOC, and Chevron
-                    Kuwait, as well as for key players in telecommunications and
-                    banking across the Middle East and Africa.  His global
-                    expertise includes assignments with the American Management
-                    Association, the World Bank Group, and the International
-                    Finance Corporation. Dr. Attia holds a Ph.D. in Corporate
-                    Social Responsibility from the Holland Academy for Science &
-                    Arts and a Master’s in Management from Sadat Academy for
-                    Management Science.
+                    training programs.  He specializes in SME
+                    capacity-building in Egypt and Africa, working with
+                    international organizations like UNIDO, UNDP, and GIZ to
+                    empower women and youth for economic growth and
+                    sustainability.  In the oil and gas sector, Samir has
+                    provided training for major companies like Kuwait Oil
+                    Company, Saudi Aramco, ADNOC, and Chevron Kuwait, as well as
+                    for key players in telecommunications and banking across the
+                    Middle East and Africa. His global expertise includes
+                    assignments with the American Management Association, the
+                    World Bank Group, and the International Finance Corporation.
+                    Dr. Attia holds a Ph.D. in Corporate Social Responsibility
+                    from the Holland Academy for Science & Arts and a Master’s
+                    in Management from Sadat Academy for Management Science.
                   </p>
                   {/* <a href={DrSamir} className="DownloadBtn">
                   Resume
