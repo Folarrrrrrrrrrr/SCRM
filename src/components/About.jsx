@@ -19,6 +19,8 @@ import Edima from "../assets/images/Edima.jpg";
 import samir from "../assets/images/Samir.jpg";
 import Sampson from "../assets/images/Sampson.jpg";
 import Udeme from "../assets/images/Udeme.jpg";
+
+
 const About = () => {
   const Sectors = [
     {

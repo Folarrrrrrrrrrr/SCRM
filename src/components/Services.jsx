@@ -60,8 +60,8 @@ const Services = () => {
             </div>
             <div className="bdrImg serviceThree ">
               <div className="imageOverlay"></div>
-              <div className="overlayContent">
-                <h2 className="text-white -mt-10 text-center">
+              <div className="overlayContent -mt-10">
+                <h2 className="text-white  text-center">
                   {" "}
                   Business Diagnostic Reviews{" "}
                 </h2>
@@ -82,8 +82,8 @@ const Services = () => {
 
             <div className="ifpImg serviceFour ">
               <div className="imageOverlay"></div>
-              <div className="overlayContent">
-                <h2 className="text-white -mt-16 text-center">
+              <div className="overlayContent -mt-20">
+                <h2 className="text-white  text-center">
                   Investment Facilitation and Promotion
                 </h2>
                 <p className="serviceSummary pl-2  pr-2 text-white">
@@ -128,8 +128,8 @@ const Services = () => {
             </div>
             <div className=" cgImg serviceEight ">
               <div className="imageOverlay"></div>
-              <div className="overlayContent">
-                <h2 className="text-white -mt-12  text-center">
+              <div className="overlayContent -mt-16 ">
+                <h2 className="text-white  text-center">
                   {" "}
                   Corporate Governance
                 </h2>
@@ -149,8 +149,8 @@ const Services = () => {
             </div>
             <div className="fddImg serviceSix ">
               <div className="imageOverlay"></div>
-              <div className="overlayContent">
-                <h2 className="text-white -mt-16 text-center">
+              <div className="overlayContent -mt-28">
+                <h2 className="text-white  text-center">
                   {" "}
                   Financial Due Diligence{" "}
                 </h2>
