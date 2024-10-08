@@ -141,7 +141,7 @@ const About = () => {
                 "To support the unlocking of the potentials of the African
                 economy using Nigeria as the starting point because of it's
                 market size, youth population, institutional voids and the sheer
-                magnitude ot technological innovations"
+                magnitude of technological innovations"
               </h3>
             </div>
           </div>
@@ -238,7 +238,7 @@ const About = () => {
                   Bank and held key positions at Commercial Bank of Africa.{" "}
                   He was a member of the Investment Promotion Agency of
                   Akwa Ibom state and Vice Chairman of Ibom Power Company
-                  Limited. With over 20 years of consulting experience, he has
+                  Limited.  <br /> <br /> With over 20 years of consulting experience, he has
                   led various high-profile projects, including working with the
                   EU, World Bank, and African Development Bank on initiatives
                   related to financial management, investment climate, and
@@ -269,7 +269,7 @@ const About = () => {
                     Banking and Finance and is a Fellow of several prestigious
                     institutions including the Institute of Chartered
                     Accountants of Nigeria and the Chartered Risk Management
-                    Institution of Nigeria. He has led various projects,
+                    Institution of Nigeria. <br /> <br /> He has led various projects,
                     including implementing operational risk management and
                     developing governance and policy documents for financial
                     institutions in Africa.  Edima is a certified
@@ -296,7 +296,7 @@ const About = () => {
                     capacity-building in Egypt and Africa, working with
                     international organizations like UNIDO, UNDP, and GIZ to
                     empower women and youth for economic growth and
-                    sustainability.  In the oil and gas sector, Samir has
+                    sustainability. <br /> <br /> In the oil and gas sector, Samir has
                     provided training for major companies like Kuwait Oil
                     Company, Saudi Aramco, ADNOC, and Chevron Kuwait, as well as
                     for key players in telecommunications and banking across the
