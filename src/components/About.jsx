@@ -296,7 +296,7 @@ const About = () => {
                     capacity-building in Egypt and Africa, working with
                     international organizations like UNIDO, UNDP, and GIZ to
                     empower women and youth for economic growth and
-                    sustainability. <br /> <br /> In the oil and gas sector, Samir has
+                    sustainability. <br/> <br/> In the oil and gas sector, Samir has
                     provided training for major companies like Kuwait Oil
                     Company, Saudi Aramco, ADNOC, and Chevron Kuwait, as well as
                     for key players in telecommunications and banking across the
