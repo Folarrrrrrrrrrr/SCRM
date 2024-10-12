@@ -5,60 +5,10 @@ const Services = () => {
   return (
     <>
       <div id="services" className="section ">
-        <h2 className="line-title"></h2>
+        <h2 className="line-title"> </h2>
         <div className="sectionFourContainer justify-center">
           <div className="servicesContainer mt-5">
-            <div className="spaImg serviceOne ">
-              <div className="imageOverlay"></div>
-              <div className="overlayContent">
-                <h2 className="text-white  text-center">
-                  {" "}
-                  Strategic Planning and Advisory
-                </h2>
-                <p className="serviceSummary pl-2 pr-2 text-white">
-                  We assist in developing strategic plans and roadmaps, support
-                  organizational development and capacity assessment, and offer
-                  guidance in policy formulation and review. Our advisory
-                  services also include stakeholder engagements and partnership
-                  development to help clients achieve their objectives.
-                </p>
-              </div>
-            </div>
-            <div className="pdmImg serviceTwo ">
-              <div className="imageOverlay"></div>
-              <div className="overlayContent">
-                <h2 className="text-white   text-center">
-                  Project Development and Management{" "}
-                </h2>
-                <p className="serviceSummary pl-2 pr-2 text-white">
-                  We offer end-to-end project management services, from project
-                  design and proposal development to implementation and
-                  evaluation. This includes risk assessment and mitigation
-                  strategies, as well as financial and resource management to
-                  ensure project success. We now have specialist support for
-                  risk management and operational risk work in West Africa.
-                </p>
-              </div>
-            </div>
-            <div className=" frcImg serviceFive ">
-              <div className="imageOverlay"></div>
-              <div className="overlayContent">
-                <h2 className="text-white  text-center">
-                  {" "}
-                  Support for Fundraising{" "}
-                </h2>
-                <p className="serviceSummary pl-2 pr-2 text-white">
-                  We provide some support for fundraising activities of project
-                  sponsors of vetted and shovel-ready private sector projects,
-                  and assist with drafting technical proposals to respond to
-                  international competitive bids of the World Bank, African
-                  Development Bank, African Union, USAID, EU, etc across various
-                  sectors. In so doing, we assist organizations secure the
-                  resources they need to achieve their mission and goals.
-                </p>
-              </div>
-            </div>
-            <div className="bdrImg serviceThree ">
+          <div className="bdrImg serviceThree ">
               <div className="imageOverlay"></div>
               <div className="overlayContent -mt-10">
                 <h2 className="text-white  text-center">
@@ -79,24 +29,53 @@ const Services = () => {
               </div>
             </div>
             
-
-            <div className="ifpImg serviceFour ">
+            <div className="pdmImg serviceTwo ">
               <div className="imageOverlay"></div>
-              <div className="overlayContent -mt-20">
-                <h2 className="text-white  text-center">
-                  Investment Facilitation and Promotion
+              <div className="overlayContent">
+                <h2 className="text-white   text-center">
+                  Project Development and Management{" "}
                 </h2>
-                <p className="serviceSummary pl-2  pr-2 text-white">
-                  We provide tailored investment facilitation and promotion
-                  services to attract and secure investment that drives economic
-                  growth and development. Our team works with the local
-                  businesses in the region and leverages our local reach to
-                  identify investnment opportunities, develop and engage
-                  potential investors for distinctive opportunities that we are
-                  commissioned to research for them. <br /> We offer strategic
-                  guidance on regulatory environments, market entry, and
-                  establishing local partnership, based on our previous
-                  experience with IPAs.
+                <p className="serviceSummary pl-2 pr-2 text-white">
+                  We offer end-to-end project management services, from project
+                  design and proposal development to implementation and
+                  evaluation. This includes risk assessment and mitigation
+                  strategies, as well as financial and resource management to
+                  ensure project success. We now have specialist support for
+                  risk management and operational risk work in West Africa.
+                </p>
+              </div>
+            </div>
+            <div className=" frcImg serviceFive ">
+              <div className="imageOverlay"></div>
+              <div className="overlayContent">
+                <h2 className="text-white  -mt-8 text-center">
+                  {" "}
+                  Support for Fundraising{" "}
+                </h2>
+                <p className="serviceSummary pl-2 pr-2 text-white">
+                  We provide some support for fundraising activities of project
+                  sponsors of vetted and shovel-ready private sector projects,
+                  and assist with drafting technical proposals to respond to
+                  international competitive bids of the World Bank, African
+                  Development Bank, African Union, USAID, EU, etc across various
+                  sectors. In so doing, we assist organizations secure the
+                  resources they need to achieve their mission and goals.
+                </p>
+              </div>
+            </div>
+            <div className="spaImg serviceOne ">
+              <div className="imageOverlay"></div>
+              <div className="overlayContent">
+                <h2 className="text-white  text-center">
+                  {" "}
+                  Strategic Planning and Advisory
+                </h2>
+                <p className="serviceSummary pl-2 pr-2 text-white">
+                  We assist in developing strategic plans and roadmaps, support
+                  organizational development and capacity assessment, and offer
+                  guidance in policy formulation and review. Our advisory
+                  services also include stakeholder engagements and partnership
+                  development to help clients achieve their objectives.
                 </p>
               </div>
             </div>
@@ -128,7 +107,7 @@ const Services = () => {
             </div>
             <div className=" cgImg serviceEight ">
               <div className="imageOverlay"></div>
-              <div className="overlayContent -mt-16 ">
+              <div className="overlayContent -mt-20 ">
                 <h2 className="text-white  text-center">
                   {" "}
                   Corporate Governance
@@ -147,14 +126,34 @@ const Services = () => {
                 </p>
               </div>
             </div>
+            <div className="ifpImg serviceFour ">
+              <div className="imageOverlay"></div>
+              <div className="overlayContent -mt-20">
+                <h2 className="text-white  text-center">
+                  Investment Facilitation and Promotion
+                </h2>
+                <p className="serviceSummary pl-2  pr-2 text-white">
+                  We provide tailored investment facilitation and promotion
+                  services to attract and secure investment that drives economic
+                  growth and development. Our team works with the local
+                  businesses in the region and leverages our local reach to
+                  identify investnment opportunities, develop and engage
+                  potential investors for distinctive opportunities that we are
+                  commissioned to research for them. <br /> We offer strategic
+                  guidance on regulatory environments, market entry, and
+                  establishing local partnership, based on our previous
+                  experience with IPAs.
+                </p>
+              </div>
+            </div>
             <div className="fddImg serviceSix ">
               <div className="imageOverlay"></div>
-              <div className="overlayContent -mt-28">
+              <div className="overlayContent -mt-24">
                 <h2 className="text-white  text-center">
                   {" "}
                   Financial Due Diligence{" "}
                 </h2>
-                <p className="  serviceSummary  pl-2 pr-2 text-white">
+                <p className=" -mt-4 serviceSummary  pl-2 pr-2 text-white">
                   We provide financial due diligence services to help private
                   entities and investor groups to make informed decisions in
                   acquisitions, and investments. <br />

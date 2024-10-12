@@ -12,17 +12,17 @@ const NavBar = () => {
 
   const navList = [
     { name: "Home", link: "#home" },
-    { name: "OUR SERVICES", link: "#services" },
-    { name: "ABOUT US", link: "#about" },
-    { name: "CONTACT US", link: "#contact" },
+    { name: "SERVICES", link: "#services" },
+    { name: "ABOUT ", link: "#about" },
+    { name: "CONTACT", link: "#contact" },
   ];
   return (
     <>
       <div className="navContainer navBox fixed z-[999]">
         <div className="kkk"></div>
-        <nav className=" site-navbar nav">
-          <a href="#" className="flex ">
-            <h2 className="site-logo text-lg  text-white font-medium mt-1">
+        <nav className=" site-navbar  nav">
+          <a href="#" className="flex -ml-28">
+            <h2 className="site-logo logo text-lg  text-white font-medium mt-1">
               {" "}
               S.C.R.M{" "}
             </h2>
@@ -53,15 +53,15 @@ const NavBar = () => {
           {openNav === false ? (
             <> </>
           ) : (
-            <div className="sideNav text-grey-900">
+            <div className="sideNav mobileNavs text-grey-900">
               <div
                 className=" flex flex-col sideNavFlex justify-center py-2 gap-10
             text-lg "
               >
                 {navList.map((list, i) => (
-                  <div key={i} className="px-6 ">
+                  <div key={i} className="px-6">
                     <a href={list?.link}>
-                      <h4 className=" text-white hover:text-cyan-600">
+                      <h4 className="text-white hover:text-cyan-600">
                         {" "}
                         {list?.name}
                       </h4>

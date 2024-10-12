@@ -21,4 +21,21 @@
         top: 0px;
         border-radius: 0px 0px 0px 0px; 
     }
+    .logo{
+        margin-left: 100px;
+    }
+    .mobileNavs{
+        margin-left: -60px;
+    }
+}
+
+@media (min-width: 698px) and (max-width: 1120px) {
+    .logo{
+        margin-left: 90px;
+    }
+}
+@media  (min-width: 1122px) {
+    .logo{
+        margin-left: -90%;
+    }
 }
