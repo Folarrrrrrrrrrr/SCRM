@@ -20,9 +20,9 @@ const Home = () => {
             </h1>
 
             <h3 className="summary   text-wrap text-left">
-              Sharon Consultative & Research Management (S.C.R.M.) <br /> was established in 1997
-              as a multidisciplinary <br /> consulting,  advisory and reaearch
-              management practice.
+              Sharon Consultative & Research Management (S.C.R.M.) <br /> was
+              established in 1997 as a multidisciplinary <br /> consulting,
+              advisory and reaearch management practice.
             </h3>
             {/* <h3 className="summary  text-wrap text-left">
               We specialze in providing tailored solutions to help
@@ -32,7 +32,7 @@ const Home = () => {
               achieve their financial goals.
             </h3> */}
           </div>
-          {/* <div
+          <div
             className="buttonContainer  flex  items-center
           justify-center "
           >
@@ -84,7 +84,7 @@ const Home = () => {
           "
               modalButtonStyle="flex items-center justify-center cursor-pointer text-white bg-green-700 m-5 p-2 w-56"
             />
-          </div> */}
+          </div>
         </div>
       </div>
     </>

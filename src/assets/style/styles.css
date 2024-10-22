@@ -1529,13 +1529,13 @@ h1 {
   width: 100%;
   height: 34rem;
 }
-.quickLinksSection {
+/* .quickLinksSection {
   background-color: rgba(0, 0, 0, 0.2);
   background-image: url("../images/yuri-krupenin-S2FVm0tOv1w-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  /* height: 50%; */
-}
+  height: 50%; 
+} */
 .formContainer {
   position: relative;
   top: -450px;
